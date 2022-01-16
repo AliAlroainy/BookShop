@@ -98,7 +98,6 @@ footer .downfooter{
 }
 
 
-/* ----------------------- footer ---------------- */
 .footer-form {
     display: flex;
     flex-direction: column;
@@ -107,6 +106,22 @@ footer .downfooter{
     justify-content: center;
     width: 100%;
     height: 30%;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.footer-form input {
+    width: 90%;
+    border-radius: 5px;
+    margin: 5px;
+    height: 30px;
+}
+
+.footer-form button{
+    height: 50px;
+    width: 40%;
+    border: none;
+    font-size: 20px;
     margin: 5px;
     border-radius: 5px;
 }
