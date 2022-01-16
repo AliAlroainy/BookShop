@@ -5,14 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
+
+        <!-- ----------------- add font ------------------->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Almarai&family=Cairo:wght@800&family=Griffy&family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
+
     <title>BookShop</title>
+
+
 </head>
 <body>
     <!-------------------- header ------------>
     <header>
         <!--top header-->
         <nav>
-            <div class="item">
+            <div onclick="document.getElementById('id01').style.display='block'" style="cursor: pointer;" class="item">
                 <div>   con    </div>
                 <div>    ادخل لحسابك او سجل الان  </div>
             </div>
@@ -61,8 +69,10 @@
 
             <div class="search">
                 <form>
-                    <input type="search" id="search" value="search" placeholder="ابحث">
-                    <button type="submit">بحث</button>
+                    <input type="search" id="search" value="search" placeholder="search">
+                    <button type="submit"><span class="material-icons-outlined">
+                        search
+                        </span></button>
 
                 </form>
             </div>
@@ -73,8 +83,41 @@
         </div>
     </header>
 
+
+    
+<div id="id01" class="modal">
+  
+    <form class="modal-content animate" action="/action_page.php" method="post">
+      
+      <div class="container">
+      
+        <input type="text" placeholder="البريد الالكتروني او رقم الجوال" name="uname" required>
+  
+        
+        <input type="password" placeholder="كلمة السر" name="psw" required>
+          
+        <button type="submit">تسجيل الدخول</button>
+       
+
+      </div>
+
+     
+      <div class="container" >
+        <div>
+            ?ليس لديك حساب
+        </div>
+        <button style="background-color: rgb(223, 223, 223);">انشاء حساب جديد</button>
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">X</button>
+      </div>
+    </form>
+  </div>
+  
+
     <!------------------------------main --------------------->
-    <div style="" ></div>
+    <div style="" >
+
+
+    </div>
 
 
 
@@ -147,5 +190,7 @@
             </div>
            </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
