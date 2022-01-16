@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* ---- start header style ------------------- */
+
+body{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    color: #333;
+    height:50px;
+    background-color: rgb(216, 216, 216);
+    align-items: center;
+    justify-content: space-around;
+    padding: 2px;
+    border-right: 1px solid #333;
+} 
+
+.second-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+.search {
+    display: flex;
+
+}
+
+#search {
+    width: 600px;
+    height: 30px;
+}
+
+.search form {
+    display: flex;
+    align-items: center;
+}
+
+.search form button {
+    width: 100px;
+    height: 30px;
+}
+
+/* --------- footer ---------------------- */
+footer {
+    
+}
+footer .topfooter {
+    height: 400px;
+    color: rgb(144, 144, 144);
+    background-color: #333;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.footer-item {
+    width: 100%;
+    margin: 20px;
+}
+
+footer .downfooter{
+    height: 100px;
+    width: 100%;
+    color: rgb(144, 144, 144);
+    background-color: #fff;
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.d-right{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+/* ----------------------- footer ---------------- */
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(31, 31, 31);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30%;
+    margin: 5px;
+    border-radius: 5px;
+}
