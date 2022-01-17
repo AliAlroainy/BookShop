@@ -9,7 +9,7 @@
 
 body {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 4% 8fr 1fr;
 }
 
 header {
@@ -234,6 +234,15 @@ footer .topfooter {
 .footer-item {
   width: 100%;
   margin: 20px;
+  direction: rtl;
+}
+
+.footer-item  li{
+    list-style: none;
+}
+
+.footer-item  ul{
+    border-top: 0.1px solid rgba(255, 255, 255, 0.493);
 }
 
 footer .downfooter {
@@ -277,4 +286,52 @@ footer .downfooter {
   font-size: 20px;
   margin: 5px;
   border-radius: 5px;
+}
+
+/* ------------ slider ------------------------------------*/
+.slider{
+    
+    width: 80vw;
+    height: 400px;
+    border: solid 1px black;
+    position: relative;
+    left: 10vw;
+    margin-top: 1px;
+    overflow: hidden;    
+}
+
+.slider .slider-item {
+    
+    width: 80vw;
+    height: 400px;
+}
+
+
+.ss {
+    display: flex;  
+    flex-direction: row;
+    position: absolute;
+    left: 1px;
+    animation: mov 4s ease-in-out infinite  forwards;
+}
+@keyframes mov {
+    0% {
+        left: 80vw;
+
+    }
+
+    33% {
+        left: 1vw;
+
+    }
+    
+    67% {
+        left: -80vw;
+    }
+
+    100% {
+        left: -160vw;
+    }
+   
+    
 }
