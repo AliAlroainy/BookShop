@@ -366,13 +366,27 @@
 
     <!--------------------------------------book detail section-->
 
+    <!-- The Modal -->
+<div id="myModali" class="modali">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+  
+  <!-- Modal Content (The Image) -->
+  <img class="modali-content" id="img9">
+  
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+  </div>
+
+
     <section class="dtl-container">
 
       <!--book-img-dtl start-->
       <div class="book-img-dtl">
 
         <div>
-          <img src="assets/books/1.jpg" width="200" height="300" />
+          <img onclick="img()" src="assets/books/1.jpg" width="200" height="300" alt="hi here" />
         </div>
 
         <div>
@@ -993,6 +1007,7 @@
       </div>
     </footer>
 
+    <script src="js/detailes.js"></script>
     <script src="js/slider.js"></script>
     <script src="js/script.js"></script>
   </body>
