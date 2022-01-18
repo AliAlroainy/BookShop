@@ -1,0 +1,45 @@
+.dtl-container {
+    display: flex;
+    flex-direction: row;
+    width: 97%;
+    padding: 10px;
+    margin: 10px;
+    justify-content: space-evenly;
+    direction: rtl;
+
+}
+
+.book-img-dtl{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 3px rgba(0, 0, 0, 0.15);
+}
+.book-img-dtl:nth-child(1) img{
+    margin: 10px;
+}
+
+.book-img-dtl:nth-child(2){
+    border: 1px solid blue;
+   
+}
+
+.book-dtl {
+    display: flex;
+    flex-direction: column;
+}
+
+.book-cart-dtl {
+    display: flex;
+    flex-direction: column; 
+}
+
+/* ------------    ------------- */
+@media (max-width: 880px) {
+    .dtl-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+}

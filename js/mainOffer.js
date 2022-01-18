@@ -20,9 +20,20 @@ var x = setInterval(function() {
   document.getElementById("demo").innerHTML = days + "d " + hours + "h "
   + minutes + "m " + seconds + "s ";
 
+  document.getElementById("demo1").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  document.getElementById("demo2").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  document.getElementById("demo3").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("demo1").innerHTML = "EXPIRED";
+    document.getElementById("demo2").innerHTML = "EXPIRED";
+    document.getElementById("demo3").innerHTML = "EXPIRED";
   }
 }, 1000);
