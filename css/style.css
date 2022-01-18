@@ -392,6 +392,28 @@ footer .topfooter .item-down{
     display: none;
   }
 
+  .nv1 {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 4;
+    right: 0px;
+    top: 50px;
+    background-color: #e5e9f29a;
+    width: 100%;
+    
+  }
+
+  .nv1 .item{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+  }
+
+  .nv1 .item div {
+    margin-right: 5px;
+  }
+
   .icon {
     display: block;
     position: fixed;

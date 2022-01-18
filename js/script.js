@@ -12,7 +12,7 @@ window.onclick = function(event) {
 function myFunction() {
     var x = document.getElementById("nav");
     if (x.className === "nv") {
-      x.className += " nre";
+      x.className += " nv1";
     } else {
       x.className = "nv";
     }
