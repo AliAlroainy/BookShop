@@ -7,3 +7,15 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+
+// menu bar -------------------------------
+function myFunction() {
+    var x = document.getElementById("nav");
+    if (x.className === "nv") {
+      x.className += " nre";
+    } else {
+      x.className = "nv";
+    }
+  }
+
+// ------------------------------------
