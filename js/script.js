@@ -10,11 +10,18 @@ window.onclick = function(event) {
 
 // menu bar -------------------------------
 function myFunction() {
+    var y = document.getElementById("search");
     var x = document.getElementById("nav");
+
     if (x.className === "nv") {
       x.className += " nv1";
+      y.style.width = "30vw";
+      y.style.border = "#333 1px solid"
+
     } else {
       x.className = "nv";
+      y.style.width = "60vw"
+      y.style.border = "none"
     }
   }
 
