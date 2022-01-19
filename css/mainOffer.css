@@ -10,7 +10,11 @@
     flex-direction: row;
     justify-content: space-evenly;
 }
-
+.mainOffer-timer{
+    border: 1px solid rgb(5, 224, 5);
+    border-radius: 20px;
+    padding: 5px;
+}
 .mainOffer-card{
     width: 200px;   
     border: rgba(236, 234, 234, 0.836) solid 1px;
@@ -53,9 +57,12 @@
 }
 
 .mainOffer-icon{
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-evenly;
+    
    
 }
 

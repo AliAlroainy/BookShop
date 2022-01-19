@@ -240,6 +240,7 @@
         method="post"
       >
         <div class="container">
+          <h3>تسجيل الدخول</h3>
           <input
             type="text"
             placeholder="البريد الالكتروني او رقم الجوال"
@@ -247,18 +248,32 @@
             required
           />
 
-          <input type="password" placeholder="كلمة السر" name="psw" required />
-          <p
-            onclick="document.getElementById('id02').style.display='block';document.getElementById('id01').style.display='none'"
-            style="cursor: pointer"
-          >
-            ليس لديك حساب
-          </p>
+
+          <div style="position: relative; width: 80%; ">
+
+          <input type="password" style="width: 100%;" placeholder="كلمة السر" name="psw" required />
+
+          <a href="#" style=" font-weight: bold; text-decoration: none ;position: absolute; color: rgb(58, 16, 196) ; left: 20px; top: 15px; z-index: 1;"><p>نسيت؟ </p></a>
+        </div>
+
+        
 
           <button type="submit">تسجيل الدخول</button>
         </div>
+        <br/>
+        <br/>
+        <br/>
+        <div class="container2">
+          <p
+          onclick="document.getElementById('id02').style.display='block';document.getElementById('id01').style.display='none'"
+          style="cursor: pointer"
+        >
+          ليس لديك حساب ؟
+        </p>
+        <button>
+          انشاء حساب جديد
+        </button>
 
-        <div class="container">
           <button
             type="button"
             onclick="document.getElementById('id02').style.display='none';document.getElementById('id01').style.display='none'"
