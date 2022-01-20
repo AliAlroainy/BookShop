@@ -28,13 +28,10 @@ function myFunction() {
 // ------------------------------------
 
 function checkCart(){
-  
+
   var c = document.getElementById('counter-cart');
   c.style.visibility ='visible';
   var x =  parseInt(c.innerText);
   x++;
-  
   c.innerText = x;
-
-
 }
