@@ -28,6 +28,8 @@ var x = setInterval(function() {
 
   document.getElementById("demo3").innerHTML = days + "d " + hours + "h "
   + minutes + "m " + seconds + "s ";
+  document.getElementById("demo5").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
@@ -35,5 +37,6 @@ var x = setInterval(function() {
     document.getElementById("demo1").innerHTML = "EXPIRED";
     document.getElementById("demo2").innerHTML = "EXPIRED";
     document.getElementById("demo3").innerHTML = "EXPIRED";
+    document.getElementById("demo5").innerHTML = "EXPIRED";
   }
 }, 1000);

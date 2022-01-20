@@ -227,10 +227,10 @@ button:hover {
   flex-direction: column;
   justify-content: center;
   padding: 20px;
-  background-color: #fefefe;
+  background-color: #fff;
   margin: 3% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
   border: 1px solid #888;
-  width: 40%; /* Could be more or less, depending on screen size */
+  width: 40vw; /* Could be more or less, depending on screen size */
 }
 
 /* The Close Button (x) */
@@ -308,6 +308,7 @@ button:hover {
    padding: 10px;
    padding-bottom: 30px;
    border-radius: 10px;
+   height: 150px;
 }
 
 /* ----------------- top poc dady styling ---------*/
@@ -409,6 +410,8 @@ footer .downfooter {
 footer .topfooter .item-down {
   width: 97vw;
   direction: rtl;
+  padding: 30px;
+  
 }
 /* ------------ slider ------------------------------------*/
 .slider {
@@ -503,6 +506,10 @@ footer .topfooter .item-down {
     z-index: 3;
   }
 
+  .modal-content {
+    width: 70vw;
+  }
+
   footer .topfooter .item-top {
     display: flex;
     flex-direction: column;
@@ -528,4 +535,8 @@ footer .topfooter .item-down {
     height: 40px;
     z-index: 4;
   }
+  #crl {
+    display: none;
+  }
 }
+

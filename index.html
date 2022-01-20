@@ -94,7 +94,7 @@
       <!--second header-->
       <div class="second-header">
         <div style="display: flex; width: 80vw; position: relative;">
-          
+
           <a href="cart.html" class="cart">
             <div id="counter-cart" style="position: absolute;top: -5px; border-radius: 50%; left: 1px; width: 20px; height: 20px; background-color: red; color: #fff; display: flex; align-items: center; justify-content: center; visibility: hidden;">0</div>
             <img src="assets/svg/سلة.svg" width="24" height="24" alt="icon"/>
@@ -145,7 +145,11 @@
         method="post"
       >
         <div class="container">
-          <h3>تسجيل الدخول</h3>
+
+          <div style="display: flex; width: 100%; border-bottom: 1px solid rgba(51, 51, 51, 0.192); justify-content: center; align-items: center;margin-bottom: 5px; padding: 5px;">
+            <h3>تسجيل الدخول</h3>
+          </div>
+          
           <input
             type="text"
             placeholder="البريد الالكتروني او رقم الجوال"
@@ -168,25 +172,20 @@
         <br/>
         <br/>
         <br/>
-        <div class="container2">
+
+        <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
           <p
-          onclick="document.getElementById('id02').style.display='block';document.getElementById('id01').style.display='none'"
-          style="cursor: pointer"
         >
           ليس لديك حساب ؟
         </p>
-        <button>
+        <button    onclick="document.getElementById('id02').style.display='block';document.getElementById('id01').style.display='none'"
+        style="color: #333; width: 50%; background-color: #fff; display: flex; justify-content: center; box-shadow: 0px 0px 2px 1px rgba(51, 51, 51, 0.603);">
           انشاء حساب جديد
         </button>
 
-          <button
-            type="button"
-            onclick="document.getElementById('id02').style.display='none';document.getElementById('id01').style.display='none'"
-            class="cancelbtn"
-          >
-            X
-          </button>
+          
         </div>
+
       </form>
     </div>
 
@@ -198,12 +197,18 @@
         method="post"
       >
         <div class="container">
-          <h1>انشاء حساب</h1>
+          
+          <div style="display: flex; width: 100%; border-bottom: 1px solid rgba(51, 51, 51, 0.192); justify-content: center; align-items: center;margin-bottom: 5px; padding: 5px;">
+            <h3>انشاء حساب</h3>
+          </div>
 
           <input type="text" placeholder="رقم الجوال" name="uname" required />
-          <p>سوف نرسل لك رمز التحقق عن طريق رساله نصية</p>
-          <button type="submit">ارسال رمز التحقق</button>
 
+          <div style="width: 80%; align-items: flex-start;">
+          <p> سوف نرسل لك <samp style="font-weight: bold;" > رمز التحقق عن طريق رساله نصية</samp>   </p>
+        </div>
+          <button type="submit" style="background-color: rgb(223, 223, 223);font-size: 1rem; color: #333;" >ارسال رمز التحقق</button>
+        
           <input type="text" placeholder="الاسم الاول" name="fname" required />
           <input type="text" placeholder="اسم العائلة" name="lname" required />
           <input
@@ -219,29 +224,33 @@
             required
           />
           <input type="password" placeholder="كلمة السر" name="psw" required />
-          <label>اوافق على الشروط</label>
-          <input type="checkbox" value="checked" />
+          <div style="display: flex; flex-direction: column; justify-content: flex-start;width: 80%;margin-top: 10px;" >
+            <div >
+              <input type="checkbox" checked style="width: 20px; height: 20px;" />
+              <label> اوافق <a style="text-decoration: none; color: #0089B6;" href="#"> على الشروط والاحكام </a> </label>
+            </div>
+            <div>
+              <input type="checkbox"  checked style="width: 20px; height: 20px;" />
+              <label> التسجيل للانضمام للنشرة البريدية </label>
+            </div>
+          </div>
+         
 
-          <button style="background-color: rgb(223, 223, 223)" type="submit">
+          <button style="background-color: rgb(223, 223, 223);font-size: 1rem; color: #333;"  type="submit">
             انشاء حساب
           </button>
         </div>
 
-        <div class="container">
-          <div
-            style="cursor: pointer"
-            onclick="document.getElementById('id01').style.display='block' ;document.getElementById('id02').style.display='none'"
-          >
-            ? لديك حساب
-          </div>
+        <div style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 5px; margin-top: 50px;">
 
-          <button
-            type="button"
-            onclick="document.getElementById('id01').style.display='none' ;document.getElementById('id02').style.display='none'"
-            class="cancelbtn"
+          <div
+            
           >
-            X
-          </button>
+             لديك حساب ؟
+          </div>
+          <div style="color: #0089B6; cursor: pointer;"  onclick="document.getElementById('id01').style.display='block' ;document.getElementById('id02').style.display='none'"
+          >  تسجيل الدخول < </div>
+
         </div>
       </form>
     </div>
@@ -288,25 +297,25 @@
         </a>
         <!--      end card   -------->
         <!--      start card   -------->
-        <a href="#" class="card-dv" >
+        <a id="crl" href="#" class="card-dv" >
           <div><img src="assets/svg/سياسة.svg" width="40" height="40" /></div>
           <div style="color: #BC4077;">سياسية</div> 
         </a>
         <!--      end card   -------->
         <!--      start card   -------->
-        <a href="#" class="card-dv" >
+        <a id="crl" href="#" class="card-dv" >
           <div><img src="assets/svg/اقتصاد.svg" width="40" height="40" /></div>
           <div style="color: #0089B6 ;">اقتصاد</div> 
         </a>
         <!--      end card   -------->
         <!--      start card   -------->
-        <a href="#" class="card-dv" >
+        <a id="crl" href="#" class="card-dv" >
           <div><img src="assets/svg/طبخ.svg" width="100%" height="40" /></div>
           <div style="color: #7DB344;">طبخ</div> 
         </a>
         <!--      end card   -------->
         <!--      start card   -------->
-        <a href="#" class="card-dv" >
+        <a id="crl" href="#" class="card-dv" >
           <div><img src="assets/svg/تربية.svg" width="40" height="40" /></div>
           <div style=" color:#9C223F ;">تربية</div> 
         </a>
@@ -329,10 +338,10 @@
       <div style="width: 100%; height: 120px;">
         <img src="assets/1.jpg" style="height: 100%; width: 100%; " />
       </div>
-      <div style="width: 100%; height: 120px;">
+      <div id="crl" style="width: 100%; height: 120px;">
         <img src="assets/1.jpg" style="height: 100%; width: 100%;" />
       </div>
-      <div style="width: 100%; height: 120px;">
+      <div id="crl" style="width: 100%; height: 120px;">
         <img src="assets/1.jpg" style="height: 100%; width: 100%;" />
       </div>
 
@@ -349,7 +358,7 @@
      <!-- ---------   search ----------------->
 
      <!-- ordered list -->
-     <ol id='list' style="direction: rtl; width: 96%; " >
+     <ol id='list' style="direction: rtl; width: 96%; list-style: none; " >
       <li class="animals">
         
     
@@ -361,7 +370,9 @@
       </div>
       
       <div class="lastoffer-cards">
-        <div style="display: flex; align-items: center; width: 50px;">
+
+        <div style="display: flex; align-items: center; width: 20px; position: absolute; top: 150px; right: 10px;">
+
         <img src="assets/svg/يمين.svg" style="cursor: pointer; height: 30px; width: 30px;" />
       </div>
         <!--------------------------start card ---------------->
@@ -522,7 +533,7 @@
         <div class="mainOffer-card">
           <div>
             <a href="details.html">
-              <img class="mainOffer-img" src="assets/books/4.jpg" />
+              <img class="mainOffer-img" src="assets/books/5.jfif" />
             </a>
           </div>
           <div class="mainOffer-title">
@@ -552,7 +563,7 @@
             >
           </div>
           <div
-            id="demo2"
+            id="demo5"
             style="color: rgb(5, 224, 5)"
             class="mainOffer-timer"
           ></div>
@@ -622,12 +633,13 @@
           </div>
         </div>
         <!--end card ----->
+        <div style="display: flex; align-items: center; width: 20px; position: absolute; top: 150px; left:2px;">
+          <img src="assets/svg/يسار.svg" style="cursor: pointer; height: 30px; width: 30px;" />
+        </div>
+      
       </div>
 
-      <div style="display: flex; align-items: center; width: 10px;">
-        <img src="assets/svg/يمين.svg" style="cursor: pointer; height: 10px; width: 10px;" />
-      </div>
-    
+      
       <!---->
      
     </div>
@@ -1119,8 +1131,8 @@
               justify-content: space-around;
               margin-bottom: 20px;
               width: 200px;
-              margin-right: 20px;
-              gap: 5px;
+           
+              
               border-top: 0.1px solid rgba(255, 255, 255, 0.493);
               padding-top: 10px;
             "

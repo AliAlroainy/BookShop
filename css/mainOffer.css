@@ -3,17 +3,18 @@
     flex-direction: column;
     padding: 50px;
     direction: rtl;
-   
 }
 .lastoffer-cards {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    position: relative;
 }
 .mainOffer-timer{
     border: 1px solid rgb(5, 224, 5);
     border-radius: 20px;
     padding: 5px;
+    
 }
 .mainOffer-card{
     width: 200px;   
