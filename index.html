@@ -47,7 +47,7 @@
             <div>الرئيسية</div>
           </a>
 
-          <a href="#" class="item">
+          <a href="about.html" class="item">
             <div>
               <img src="assets/svg/من نحن.svg" width="20" height="20" alt="icon" />
 
@@ -202,7 +202,26 @@
             <h3>انشاء حساب</h3>
           </div>
 
+          <div style="display: flex; flex-direction: row; width: 80%; align-items: center;">
           <input type="text" placeholder="رقم الجوال" name="uname" required />
+
+          <div style="position: relative; width: 50px;">
+          
+
+          <select placeholder="رقم الجوال"  required style="width: 80px; height: 40px; background-color: rgb(233, 232, 232);
+          box-sizing: border-box;
+          border: none;
+          direction: rtl;
+          border-radius: 5px;">
+            <option> +970</option>
+            <option>+967</option>
+            <option>+966</option>
+          </select>
+          <img src="assets/svg/علم.svg" width="20" height="20" style="position: absolute; top: 9px; left: -9px;"/>
+          <div style="position: absolute; right: 1px; top: 1px; font-size: 0.2rem;">رمز البلد</div>
+        </div>
+
+        </div>
 
           <div style="width: 80%; align-items: flex-start;">
           <p> سوف نرسل لك <samp style="font-weight: bold;" > رمز التحقق عن طريق رساله نصية</samp>   </p>
@@ -278,38 +297,38 @@
       <div class="divs-dady" >
         <img src="assets/svg/يمين.svg" style="cursor: pointer;" />
          <!--      start card   -------->
-        <a href="#" class="card-dv" >
+        <a  href="#1" class="card-dv" >
           <div><img src="assets/svg/دين.svg" width="40" height="40" /> </div>
           <div style="color:#5E2F26 ;">دين</div> 
         </a>
         <!--      end card   -------->
 
         <!--      start card   -------->
-        <a href="#" class="card-dv" >
+        <a href="#2" class="card-dv" >
           <div><img src="assets/svg/تاريخ.svg" width="40" height="40" /> </div>
           <div style="color: #F67828;">تاريخ</div> 
         </a>
         <!--      end card   -------->
         <!--      start card   -------->
-        <a href="#" class="card-dv" >
+        <a href="#6" class="card-dv" >
           <div><img src="assets/svg/روايات.svg" width="40" height="40" /></div>
           <div style="color: #76689A;" >روايات</div> 
         </a>
         <!--      end card   -------->
         <!--      start card   -------->
-        <a id="crl" href="#" class="card-dv" >
+        <a id="crl" href="#3" class="card-dv" >
           <div><img src="assets/svg/سياسة.svg" width="40" height="40" /></div>
           <div style="color: #BC4077;">سياسية</div> 
         </a>
         <!--      end card   -------->
         <!--      start card   -------->
-        <a id="crl" href="#" class="card-dv" >
+        <a id="crl" href="#4" class="card-dv" >
           <div><img src="assets/svg/اقتصاد.svg" width="40" height="40" /></div>
           <div style="color: #0089B6 ;">اقتصاد</div> 
         </a>
         <!--      end card   -------->
         <!--      start card   -------->
-        <a id="crl" href="#" class="card-dv" >
+        <a id="crl" href="#5" class="card-dv" >
           <div><img src="assets/svg/طبخ.svg" width="100%" height="40" /></div>
           <div style="color: #7DB344;">طبخ</div> 
         </a>
@@ -335,6 +354,7 @@
       <div style="width: 100%; height: 120px;">
         <img src="assets/1.jpg" style="height: 100%; width: 100%;" />
       </div>
+      
       <div style="width: 100%; height: 120px;">
         <img src="assets/1.jpg" style="height: 100%; width: 100%; " />
       </div>
@@ -366,12 +386,13 @@
 
     <div class="mainOffer-container">
       <div class="latst-offer">
-        <h1> العروض الحالية</h1>
+        <h1> العروض الحالية</h1> 
+        <a style="color: #0089B6; text-decoration: none;" href="#"><h3>عرض الكل</h3></a>
       </div>
       
       <div class="lastoffer-cards">
 
-        <div style="display: flex; align-items: center; width: 20px; position: absolute; top: 150px; right: 10px;">
+      <div style="display: flex; align-items: center; width: 20px; position: absolute; top: 150px; right: 10px;">
 
         <img src="assets/svg/يمين.svg" style="cursor: pointer; height: 30px; width: 30px;" />
       </div>
@@ -656,9 +677,17 @@
         <div id="1" class="mainOffer-container">
           <div class="latst-offer">
             <h1>الكتب الدينية</h1>
+            <a style="color: #0089B6; text-decoration: none;" href="#"><h3>عرض الكل</h3></a>
+
           </div>
     
           <div class="lastoffer-cards">
+
+            <div style="display: flex; align-items: center; width: 20px; position: absolute; top: 150px; right: 10px;">
+
+              <img src="assets/svg/يمين.svg" style="cursor: pointer; height: 30px; width: 30px;" />
+            </div>
+
             <!--------------------------start card ---------------->
             <div class="mainOffer-card">
               <div>
@@ -692,11 +721,7 @@
                   ><p style="color: blue; font-weight: bold">كتاب مطبوع</p></a
                 >
               </div>
-              <div
-                id="demo3"
-                style="color: rgb(5, 224, 5)"
-                class="mainOffer-timer"
-              ></div>
+              
               <div class="mainOffer-icon">
                 <a href="#">
                   <img src="assets/svg/نجمة.svg" width="24" height="24" />
@@ -709,22 +734,8 @@
                 </a>
               </div>
             </div>
+
             <!--end card ----->
-    
-          </div>
-    
-          <!---->
-        </div>
-    </li>
-      <li class="animals">
-        <!-----------------------   الكتب التاريخية  ---------------------->
-    
-        <div id="1" class="mainOffer-container">
-          <div class="latst-offer">
-            <h1>الكتب التاريخية</h1>
-          </div>
-    
-          <div class="lastoffer-cards">
             <!--------------------------start card ---------------->
             <div class="mainOffer-card">
               <div>
@@ -758,11 +769,7 @@
                   ><p style="color: blue; font-weight: bold">كتاب مطبوع</p></a
                 >
               </div>
-              <div
-                id="demo3"
-                style="color: rgb(5, 224, 5)"
-                class="mainOffer-timer"
-              ></div>
+              
               <div class="mainOffer-icon">
                 <a href="#">
                   <img src="assets/svg/نجمة.svg" width="24" height="24" />
@@ -774,11 +781,427 @@
                   <img src="assets/svg/سهم كارد.svg" width="24" height="24" />
                 </a>
               </div>
-            </div>     
+            </div>
+
             <!--end card ----->
+            <!--------------------------start card ---------------->
+            <div class="mainOffer-card">
+              <div>
+                <a href="details.html"
+                  ><img class="mainOffer-img" src="assets/books/3.jpg"
+                /></a>
+              </div>
+              <div class="mainOffer-title">
+                <div>
+                  <img src="assets/svg/كتاب كارد.svg" width="24" height="24" />
     
+                </div>
+                <h2>كتابي الكتروني</h2>
+              </div>
+              <div class="mainOffer-deyail">
+                <p style="text-align: center; margin-bottom: 10px">
+                  كتاب مغامرات مارتن (كتاب الكتروني)
+                </p>
+              </div>
+              <div class="mainOffer-price">
+                <h1 style="color: red">
+                  49<span style="font-size: 0.5rem">ر.س</span>
+                </h1>
+                <p style="font-size: 0.7rem; color: rgba(128, 128, 128, 0.664)">
+                  شامل الضريبة
+                </p>
+              </div>
+              <div class="mainOffer-another">
+                <p>صيغ اخرى :</p>
+                <a href="#" style="text-decoration: none"
+                  ><p style="color: blue; font-weight: bold">كتاب مطبوع</p></a
+                >
+              </div>
+              
+              <div class="mainOffer-icon">
+                <a href="#">
+                  <img src="assets/svg/نجمة.svg" width="24" height="24" />
+                </a>
+                <div onclick="checkCart()" style="cursor: pointer;" >
+                  <img src="assets/svg/عربة.svg" width="30" height="30" />
+                </div>
+                <a href="#">
+                  <img src="assets/svg/سهم كارد.svg" width="24" height="24" />
+                </a>
+              </div>
+            </div>
+
+            <!--end card ----->
+            <!--------------------------start card ---------------->
+            <div class="mainOffer-card">
+              <div>
+                <a href="details.html"
+                  ><img class="mainOffer-img" src="assets/books/3.jpg"
+                /></a>
+              </div>
+              <div class="mainOffer-title">
+                <div>
+                  <img src="assets/svg/كتاب كارد.svg" width="24" height="24" />
+    
+                </div>
+                <h2>كتابي الكتروني</h2>
+              </div>
+              <div class="mainOffer-deyail">
+                <p style="text-align: center; margin-bottom: 10px">
+                  كتاب مغامرات مارتن (كتاب الكتروني)
+                </p>
+              </div>
+              <div class="mainOffer-price">
+                <h1 style="color: red">
+                  49<span style="font-size: 0.5rem">ر.س</span>
+                </h1>
+                <p style="font-size: 0.7rem; color: rgba(128, 128, 128, 0.664)">
+                  شامل الضريبة
+                </p>
+              </div>
+              <div class="mainOffer-another">
+                <p>صيغ اخرى :</p>
+                <a href="#" style="text-decoration: none"
+                  ><p style="color: blue; font-weight: bold">كتاب مطبوع</p></a
+                >
+              </div>
+              
+              <div class="mainOffer-icon">
+                <a href="#">
+                  <img src="assets/svg/نجمة.svg" width="24" height="24" />
+                </a>
+                <div onclick="checkCart()" style="cursor: pointer;" >
+                  <img src="assets/svg/عربة.svg" width="30" height="30" />
+                </div>
+                <a href="#">
+                  <img src="assets/svg/سهم كارد.svg" width="24" height="24" />
+                </a>
+              </div>
+            </div>
+
+            <!--end card ----->
+            <!--------------------------start card ---------------->
+            <div class="mainOffer-card">
+              <div>
+                <a href="details.html"
+                  ><img class="mainOffer-img" src="assets/books/3.jpg"
+                /></a>
+              </div>
+              <div class="mainOffer-title">
+                <div>
+                  <img src="assets/svg/كتاب كارد.svg" width="24" height="24" />
+    
+                </div>
+                <h2>كتابي الكتروني</h2>
+              </div>
+              <div class="mainOffer-deyail">
+                <p style="text-align: center; margin-bottom: 10px">
+                  كتاب مغامرات مارتن (كتاب الكتروني)
+                </p>
+              </div>
+              <div class="mainOffer-price">
+                <h1 style="color: red">
+                  49<span style="font-size: 0.5rem">ر.س</span>
+                </h1>
+                <p style="font-size: 0.7rem; color: rgba(128, 128, 128, 0.664)">
+                  شامل الضريبة
+                </p>
+              </div>
+              <div class="mainOffer-another">
+                <p>صيغ اخرى :</p>
+                <a href="#" style="text-decoration: none"
+                  ><p style="color: blue; font-weight: bold">كتاب مطبوع</p></a
+                >
+              </div>
+              
+              <div class="mainOffer-icon">
+                <a href="#">
+                  <img src="assets/svg/نجمة.svg" width="24" height="24" />
+                </a>
+                <div onclick="checkCart()" style="cursor: pointer;" >
+                  <img src="assets/svg/عربة.svg" width="30" height="30" />
+                </div>
+                <a href="#">
+                  <img src="assets/svg/سهم كارد.svg" width="24" height="24" />
+                </a>
+              </div>
+            </div>
+
+            <!--end card ----->
+
+    
+            <div style="display: flex; align-items: center; width: 20px; position: absolute; top: 150px; left:2px;">
+              <img src="assets/svg/يسار.svg" style="cursor: pointer; height: 30px; width: 30px;" />
+            </div>
+
           </div>
     
+          <!---->
+        </div>
+    </li>
+      <li class="animals">
+        <!-----------------------   الكتب التاريخية  ---------------------->
+    
+        <div id="2" class="mainOffer-container">
+          <div class="latst-offer">
+            <h1>الكتب التاريخية</h1>
+            <a style="color: #0089B6; text-decoration: none;" href="#"><h3>عرض الكل</h3></a>
+          </div>
+    
+          <div class="lastoffer-cards">
+
+            <div style="display: flex; align-items: center; width: 20px; position: absolute; top: 150px; right: 10px;">
+
+              <img src="assets/svg/يمين.svg" style="cursor: pointer; height: 30px; width: 30px;" />
+            </div>
+
+            <!--------------------------start card ---------------->
+            <div class="mainOffer-card">
+              <div>
+                <a href="details.html"
+                  ><img class="mainOffer-img" src="assets/books/3.jpg"
+                /></a>
+              </div>
+              <div class="mainOffer-title">
+                <div>
+                  <img src="assets/svg/كتاب كارد.svg" width="24" height="24" />
+    
+                </div>
+                <h2>كتابي الكتروني</h2>
+              </div>
+              <div class="mainOffer-deyail">
+                <p style="text-align: center; margin-bottom: 10px">
+                  كتاب مغامرات مارتن (كتاب الكتروني)
+                </p>
+              </div>
+              <div class="mainOffer-price">
+                <h1 style="color: red">
+                  49<span style="font-size: 0.5rem">ر.س</span>
+                </h1>
+                <p style="font-size: 0.7rem; color: rgba(128, 128, 128, 0.664)">
+                  شامل الضريبة
+                </p>
+              </div>
+              <div class="mainOffer-another">
+                <p>صيغ اخرى :</p>
+                <a href="#" style="text-decoration: none"
+                  ><p style="color: blue; font-weight: bold">كتاب مطبوع</p></a
+                >
+              </div>
+              
+              <div class="mainOffer-icon">
+                <a href="#">
+                  <img src="assets/svg/نجمة.svg" width="24" height="24" />
+                </a>
+                <div onclick="checkCart()" style="cursor: pointer;" >
+                  <img src="assets/svg/عربة.svg" width="30" height="30" />
+                </div>
+                <a href="#">
+                  <img src="assets/svg/سهم كارد.svg" width="24" height="24" />
+                </a>
+              </div>
+            </div>
+
+            <!--end card ----->
+            <!--------------------------start card ---------------->
+            <div class="mainOffer-card">
+              <div>
+                <a href="details.html"
+                  ><img class="mainOffer-img" src="assets/books/3.jpg"
+                /></a>
+              </div>
+              <div class="mainOffer-title">
+                <div>
+                  <img src="assets/svg/كتاب كارد.svg" width="24" height="24" />
+    
+                </div>
+                <h2>كتابي الكتروني</h2>
+              </div>
+              <div class="mainOffer-deyail">
+                <p style="text-align: center; margin-bottom: 10px">
+                  كتاب مغامرات مارتن (كتاب الكتروني)
+                </p>
+              </div>
+              <div class="mainOffer-price">
+                <h1 style="color: red">
+                  49<span style="font-size: 0.5rem">ر.س</span>
+                </h1>
+                <p style="font-size: 0.7rem; color: rgba(128, 128, 128, 0.664)">
+                  شامل الضريبة
+                </p>
+              </div>
+              <div class="mainOffer-another">
+                <p>صيغ اخرى :</p>
+                <a href="#" style="text-decoration: none"
+                  ><p style="color: blue; font-weight: bold">كتاب مطبوع</p></a
+                >
+              </div>
+              
+              <div class="mainOffer-icon">
+                <a href="#">
+                  <img src="assets/svg/نجمة.svg" width="24" height="24" />
+                </a>
+                <div onclick="checkCart()" style="cursor: pointer;" >
+                  <img src="assets/svg/عربة.svg" width="30" height="30" />
+                </div>
+                <a href="#">
+                  <img src="assets/svg/سهم كارد.svg" width="24" height="24" />
+                </a>
+              </div>
+            </div>
+
+            <!--end card ----->
+            <!--------------------------start card ---------------->
+            <div class="mainOffer-card">
+              <div>
+                <a href="details.html"
+                  ><img class="mainOffer-img" src="assets/books/3.jpg"
+                /></a>
+              </div>
+              <div class="mainOffer-title">
+                <div>
+                  <img src="assets/svg/كتاب كارد.svg" width="24" height="24" />
+    
+                </div>
+                <h2>كتابي الكتروني</h2>
+              </div>
+              <div class="mainOffer-deyail">
+                <p style="text-align: center; margin-bottom: 10px">
+                  كتاب مغامرات مارتن (كتاب الكتروني)
+                </p>
+              </div>
+              <div class="mainOffer-price">
+                <h1 style="color: red">
+                  49<span style="font-size: 0.5rem">ر.س</span>
+                </h1>
+                <p style="font-size: 0.7rem; color: rgba(128, 128, 128, 0.664)">
+                  شامل الضريبة
+                </p>
+              </div>
+              <div class="mainOffer-another">
+                <p>صيغ اخرى :</p>
+                <a href="#" style="text-decoration: none"
+                  ><p style="color: blue; font-weight: bold">كتاب مطبوع</p></a
+                >
+              </div>
+              
+              <div class="mainOffer-icon">
+                <a href="#">
+                  <img src="assets/svg/نجمة.svg" width="24" height="24" />
+                </a>
+                <div onclick="checkCart()" style="cursor: pointer;" >
+                  <img src="assets/svg/عربة.svg" width="30" height="30" />
+                </div>
+                <a href="#">
+                  <img src="assets/svg/سهم كارد.svg" width="24" height="24" />
+                </a>
+              </div>
+            </div>
+
+            <!--end card ----->
+            <!--------------------------start card ---------------->
+            <div class="mainOffer-card">
+              <div>
+                <a href="details.html"
+                  ><img class="mainOffer-img" src="assets/books/3.jpg"
+                /></a>
+              </div>
+              <div class="mainOffer-title">
+                <div>
+                  <img src="assets/svg/كتاب كارد.svg" width="24" height="24" />
+    
+                </div>
+                <h2>كتابي الكتروني</h2>
+              </div>
+              <div class="mainOffer-deyail">
+                <p style="text-align: center; margin-bottom: 10px">
+                  كتاب مغامرات مارتن (كتاب الكتروني)
+                </p>
+              </div>
+              <div class="mainOffer-price">
+                <h1 style="color: red">
+                  49<span style="font-size: 0.5rem">ر.س</span>
+                </h1>
+                <p style="font-size: 0.7rem; color: rgba(128, 128, 128, 0.664)">
+                  شامل الضريبة
+                </p>
+              </div>
+              <div class="mainOffer-another">
+                <p>صيغ اخرى :</p>
+                <a href="#" style="text-decoration: none"
+                  ><p style="color: blue; font-weight: bold">كتاب مطبوع</p></a
+                >
+              </div>
+              
+              <div class="mainOffer-icon">
+                <a href="#">
+                  <img src="assets/svg/نجمة.svg" width="24" height="24" />
+                </a>
+                <div onclick="checkCart()" style="cursor: pointer;" >
+                  <img src="assets/svg/عربة.svg" width="30" height="30" />
+                </div>
+                <a href="#">
+                  <img src="assets/svg/سهم كارد.svg" width="24" height="24" />
+                </a>
+              </div>
+            </div>
+
+            <!--end card ----->
+            <!--------------------------start card ---------------->
+            <div class="mainOffer-card">
+              <div>
+                <a href="details.html"
+                  ><img class="mainOffer-img" src="assets/books/3.jpg"
+                /></a>
+              </div>
+              <div class="mainOffer-title">
+                <div>
+                  <img src="assets/svg/كتاب كارد.svg" width="24" height="24" />
+    
+                </div>
+                <h2>كتابي الكتروني</h2>
+              </div>
+              <div class="mainOffer-deyail">
+                <p style="text-align: center; margin-bottom: 10px">
+                  كتاب مغامرات مارتن (كتاب الكتروني)
+                </p>
+              </div>
+              <div class="mainOffer-price">
+                <h1 style="color: red">
+                  49<span style="font-size: 0.5rem">ر.س</span>
+                </h1>
+                <p style="font-size: 0.7rem; color: rgba(128, 128, 128, 0.664)">
+                  شامل الضريبة
+                </p>
+              </div>
+              <div class="mainOffer-another">
+                <p>صيغ اخرى :</p>
+                <a href="#" style="text-decoration: none"
+                  ><p style="color: blue; font-weight: bold">كتاب مطبوع</p></a
+                >
+              </div>
+              
+              <div class="mainOffer-icon">
+                <a href="#">
+                  <img src="assets/svg/نجمة.svg" width="24" height="24" />
+                </a>
+                <div onclick="checkCart()" style="cursor: pointer;" >
+                  <img src="assets/svg/عربة.svg" width="30" height="30" />
+                </div>
+                <a href="#">
+                  <img src="assets/svg/سهم كارد.svg" width="24" height="24" />
+                </a>
+              </div>
+            </div>
+
+            <!--end card ----->
+
+    
+            <div style="display: flex; align-items: center; width: 20px; position: absolute; top: 150px; left:2px;">
+              <img src="assets/svg/يسار.svg" style="cursor: pointer; height: 30px; width: 30px;" />
+            </div>
+
+          </div>
           <!---->
         </div>
     </li>
@@ -786,12 +1209,20 @@
     <li class="animals">
       <!-----------------------   ابسياسية ---------------------->
   
-      <div id="1" class="mainOffer-container">
+      <div id="3" class="mainOffer-container">
         <div class="latst-offer">
           <h1>السياسية</h1>
+          <a style="color: #0089B6; text-decoration: none;" href="#"><h3>عرض الكل</h3></a>
+
         </div>
   
         <div class="lastoffer-cards">
+
+          <div style="display: flex; align-items: center; width: 20px; position: absolute; top: 150px; right: 10px;">
+
+            <img src="assets/svg/يمين.svg" style="cursor: pointer; height: 30px; width: 30px;" />
+          </div>
+
           <!--------------------------start card ---------------->
           <div class="mainOffer-card">
             <div>
@@ -825,11 +1256,7 @@
                 ><p style="color: blue; font-weight: bold">كتاب مطبوع</p></a
               >
             </div>
-            <div
-              id="demo3"
-              style="color: rgb(5, 224, 5)"
-              class="mainOffer-timer"
-            ></div>
+            
             <div class="mainOffer-icon">
               <a href="#">
                 <img src="assets/svg/نجمة.svg" width="24" height="24" />
@@ -841,9 +1268,207 @@
                 <img src="assets/svg/سهم كارد.svg" width="24" height="24" />
               </a>
             </div>
-          </div>     
+          </div>
+
           <!--end card ----->
+          <!--------------------------start card ---------------->
+          <div class="mainOffer-card">
+            <div>
+              <a href="details.html"
+                ><img class="mainOffer-img" src="assets/books/3.jpg"
+              /></a>
+            </div>
+            <div class="mainOffer-title">
+              <div>
+                <img src="assets/svg/كتاب كارد.svg" width="24" height="24" />
   
+              </div>
+              <h2>كتابي الكتروني</h2>
+            </div>
+            <div class="mainOffer-deyail">
+              <p style="text-align: center; margin-bottom: 10px">
+                كتاب مغامرات مارتن (كتاب الكتروني)
+              </p>
+            </div>
+            <div class="mainOffer-price">
+              <h1 style="color: red">
+                49<span style="font-size: 0.5rem">ر.س</span>
+              </h1>
+              <p style="font-size: 0.7rem; color: rgba(128, 128, 128, 0.664)">
+                شامل الضريبة
+              </p>
+            </div>
+            <div class="mainOffer-another">
+              <p>صيغ اخرى :</p>
+              <a href="#" style="text-decoration: none"
+                ><p style="color: blue; font-weight: bold">كتاب مطبوع</p></a
+              >
+            </div>
+            
+            <div class="mainOffer-icon">
+              <a href="#">
+                <img src="assets/svg/نجمة.svg" width="24" height="24" />
+              </a>
+              <div onclick="checkCart()" style="cursor: pointer;" >
+                <img src="assets/svg/عربة.svg" width="30" height="30" />
+              </div>
+              <a href="#">
+                <img src="assets/svg/سهم كارد.svg" width="24" height="24" />
+              </a>
+            </div>
+          </div>
+
+          <!--end card ----->
+          <!--------------------------start card ---------------->
+          <div class="mainOffer-card">
+            <div>
+              <a href="details.html"
+                ><img class="mainOffer-img" src="assets/books/3.jpg"
+              /></a>
+            </div>
+            <div class="mainOffer-title">
+              <div>
+                <img src="assets/svg/كتاب كارد.svg" width="24" height="24" />
+  
+              </div>
+              <h2>كتابي الكتروني</h2>
+            </div>
+            <div class="mainOffer-deyail">
+              <p style="text-align: center; margin-bottom: 10px">
+                كتاب مغامرات مارتن (كتاب الكتروني)
+              </p>
+            </div>
+            <div class="mainOffer-price">
+              <h1 style="color: red">
+                49<span style="font-size: 0.5rem">ر.س</span>
+              </h1>
+              <p style="font-size: 0.7rem; color: rgba(128, 128, 128, 0.664)">
+                شامل الضريبة
+              </p>
+            </div>
+            <div class="mainOffer-another">
+              <p>صيغ اخرى :</p>
+              <a href="#" style="text-decoration: none"
+                ><p style="color: blue; font-weight: bold">كتاب مطبوع</p></a
+              >
+            </div>
+            
+            <div class="mainOffer-icon">
+              <a href="#">
+                <img src="assets/svg/نجمة.svg" width="24" height="24" />
+              </a>
+              <div onclick="checkCart()" style="cursor: pointer;" >
+                <img src="assets/svg/عربة.svg" width="30" height="30" />
+              </div>
+              <a href="#">
+                <img src="assets/svg/سهم كارد.svg" width="24" height="24" />
+              </a>
+            </div>
+          </div>
+
+          <!--end card ----->
+          <!--------------------------start card ---------------->
+          <div class="mainOffer-card">
+            <div>
+              <a href="details.html"
+                ><img class="mainOffer-img" src="assets/books/3.jpg"
+              /></a>
+            </div>
+            <div class="mainOffer-title">
+              <div>
+                <img src="assets/svg/كتاب كارد.svg" width="24" height="24" />
+  
+              </div>
+              <h2>كتابي الكتروني</h2>
+            </div>
+            <div class="mainOffer-deyail">
+              <p style="text-align: center; margin-bottom: 10px">
+                كتاب مغامرات مارتن (كتاب الكتروني)
+              </p>
+            </div>
+            <div class="mainOffer-price">
+              <h1 style="color: red">
+                49<span style="font-size: 0.5rem">ر.س</span>
+              </h1>
+              <p style="font-size: 0.7rem; color: rgba(128, 128, 128, 0.664)">
+                شامل الضريبة
+              </p>
+            </div>
+            <div class="mainOffer-another">
+              <p>صيغ اخرى :</p>
+              <a href="#" style="text-decoration: none"
+                ><p style="color: blue; font-weight: bold">كتاب مطبوع</p></a
+              >
+            </div>
+            
+            <div class="mainOffer-icon">
+              <a href="#">
+                <img src="assets/svg/نجمة.svg" width="24" height="24" />
+              </a>
+              <div onclick="checkCart()" style="cursor: pointer;" >
+                <img src="assets/svg/عربة.svg" width="30" height="30" />
+              </div>
+              <a href="#">
+                <img src="assets/svg/سهم كارد.svg" width="24" height="24" />
+              </a>
+            </div>
+          </div>
+
+          <!--end card ----->
+          <!--------------------------start card ---------------->
+          <div class="mainOffer-card">
+            <div>
+              <a href="details.html"
+                ><img class="mainOffer-img" src="assets/books/3.jpg"
+              /></a>
+            </div>
+            <div class="mainOffer-title">
+              <div>
+                <img src="assets/svg/كتاب كارد.svg" width="24" height="24" />
+  
+              </div>
+              <h2>كتابي الكتروني</h2>
+            </div>
+            <div class="mainOffer-deyail">
+              <p style="text-align: center; margin-bottom: 10px">
+                كتاب مغامرات مارتن (كتاب الكتروني)
+              </p>
+            </div>
+            <div class="mainOffer-price">
+              <h1 style="color: red">
+                49<span style="font-size: 0.5rem">ر.س</span>
+              </h1>
+              <p style="font-size: 0.7rem; color: rgba(128, 128, 128, 0.664)">
+                شامل الضريبة
+              </p>
+            </div>
+            <div class="mainOffer-another">
+              <p>صيغ اخرى :</p>
+              <a href="#" style="text-decoration: none"
+                ><p style="color: blue; font-weight: bold">كتاب مطبوع</p></a
+              >
+            </div>
+            
+            <div class="mainOffer-icon">
+              <a href="#">
+                <img src="assets/svg/نجمة.svg" width="24" height="24" />
+              </a>
+              <div onclick="checkCart()" style="cursor: pointer;" >
+                <img src="assets/svg/عربة.svg" width="30" height="30" />
+              </div>
+              <a href="#">
+                <img src="assets/svg/سهم كارد.svg" width="24" height="24" />
+              </a>
+            </div>
+          </div>
+
+          <!--end card ----->
+
+  
+          <div style="display: flex; align-items: center; width: 20px; position: absolute; top: 150px; left:2px;">
+            <img src="assets/svg/يسار.svg" style="cursor: pointer; height: 30px; width: 30px;" />
+          </div>
+
         </div>
   
         <!---->
@@ -853,12 +1478,20 @@
   <li class="animals">
     <!-----------------------   الاقتصاد  ---------------------->
 
-    <div id="1" class="mainOffer-container">
+    <div id="4" class="mainOffer-container">
       <div class="latst-offer">
         <h1>الاقتصاد</h1>
+        <a style="color: #0089B6; text-decoration: none;" href="#"><h3>عرض الكل</h3></a>
+
       </div>
 
       <div class="lastoffer-cards">
+
+        <div style="display: flex; align-items: center; width: 20px; position: absolute; top: 150px; right: 10px;">
+
+          <img src="assets/svg/يمين.svg" style="cursor: pointer; height: 30px; width: 30px;" />
+        </div>
+
         <!--------------------------start card ---------------->
         <div class="mainOffer-card">
           <div>
@@ -892,11 +1525,7 @@
               ><p style="color: blue; font-weight: bold">كتاب مطبوع</p></a
             >
           </div>
-          <div
-            id="demo3"
-            style="color: rgb(5, 224, 5)"
-            class="mainOffer-timer"
-          ></div>
+          
           <div class="mainOffer-icon">
             <a href="#">
               <img src="assets/svg/نجمة.svg" width="24" height="24" />
@@ -908,8 +1537,206 @@
               <img src="assets/svg/سهم كارد.svg" width="24" height="24" />
             </a>
           </div>
-        </div>     
+        </div>
+
         <!--end card ----->
+        <!--------------------------start card ---------------->
+        <div class="mainOffer-card">
+          <div>
+            <a href="details.html"
+              ><img class="mainOffer-img" src="assets/books/3.jpg"
+            /></a>
+          </div>
+          <div class="mainOffer-title">
+            <div>
+              <img src="assets/svg/كتاب كارد.svg" width="24" height="24" />
+
+            </div>
+            <h2>كتابي الكتروني</h2>
+          </div>
+          <div class="mainOffer-deyail">
+            <p style="text-align: center; margin-bottom: 10px">
+              كتاب مغامرات مارتن (كتاب الكتروني)
+            </p>
+          </div>
+          <div class="mainOffer-price">
+            <h1 style="color: red">
+              49<span style="font-size: 0.5rem">ر.س</span>
+            </h1>
+            <p style="font-size: 0.7rem; color: rgba(128, 128, 128, 0.664)">
+              شامل الضريبة
+            </p>
+          </div>
+          <div class="mainOffer-another">
+            <p>صيغ اخرى :</p>
+            <a href="#" style="text-decoration: none"
+              ><p style="color: blue; font-weight: bold">كتاب مطبوع</p></a
+            >
+          </div>
+          
+          <div class="mainOffer-icon">
+            <a href="#">
+              <img src="assets/svg/نجمة.svg" width="24" height="24" />
+            </a>
+            <div onclick="checkCart()" style="cursor: pointer;" >
+              <img src="assets/svg/عربة.svg" width="30" height="30" />
+            </div>
+            <a href="#">
+              <img src="assets/svg/سهم كارد.svg" width="24" height="24" />
+            </a>
+          </div>
+        </div>
+
+        <!--end card ----->
+        <!--------------------------start card ---------------->
+        <div class="mainOffer-card">
+          <div>
+            <a href="details.html"
+              ><img class="mainOffer-img" src="assets/books/3.jpg"
+            /></a>
+          </div>
+          <div class="mainOffer-title">
+            <div>
+              <img src="assets/svg/كتاب كارد.svg" width="24" height="24" />
+
+            </div>
+            <h2>كتابي الكتروني</h2>
+          </div>
+          <div class="mainOffer-deyail">
+            <p style="text-align: center; margin-bottom: 10px">
+              كتاب مغامرات مارتن (كتاب الكتروني)
+            </p>
+          </div>
+          <div class="mainOffer-price">
+            <h1 style="color: red">
+              49<span style="font-size: 0.5rem">ر.س</span>
+            </h1>
+            <p style="font-size: 0.7rem; color: rgba(128, 128, 128, 0.664)">
+              شامل الضريبة
+            </p>
+          </div>
+          <div class="mainOffer-another">
+            <p>صيغ اخرى :</p>
+            <a href="#" style="text-decoration: none"
+              ><p style="color: blue; font-weight: bold">كتاب مطبوع</p></a
+            >
+          </div>
+          
+          <div class="mainOffer-icon">
+            <a href="#">
+              <img src="assets/svg/نجمة.svg" width="24" height="24" />
+            </a>
+            <div onclick="checkCart()" style="cursor: pointer;" >
+              <img src="assets/svg/عربة.svg" width="30" height="30" />
+            </div>
+            <a href="#">
+              <img src="assets/svg/سهم كارد.svg" width="24" height="24" />
+            </a>
+          </div>
+        </div>
+
+        <!--end card ----->
+        <!--------------------------start card ---------------->
+        <div class="mainOffer-card">
+          <div>
+            <a href="details.html"
+              ><img class="mainOffer-img" src="assets/books/3.jpg"
+            /></a>
+          </div>
+          <div class="mainOffer-title">
+            <div>
+              <img src="assets/svg/كتاب كارد.svg" width="24" height="24" />
+
+            </div>
+            <h2>كتابي الكتروني</h2>
+          </div>
+          <div class="mainOffer-deyail">
+            <p style="text-align: center; margin-bottom: 10px">
+              كتاب مغامرات مارتن (كتاب الكتروني)
+            </p>
+          </div>
+          <div class="mainOffer-price">
+            <h1 style="color: red">
+              49<span style="font-size: 0.5rem">ر.س</span>
+            </h1>
+            <p style="font-size: 0.7rem; color: rgba(128, 128, 128, 0.664)">
+              شامل الضريبة
+            </p>
+          </div>
+          <div class="mainOffer-another">
+            <p>صيغ اخرى :</p>
+            <a href="#" style="text-decoration: none"
+              ><p style="color: blue; font-weight: bold">كتاب مطبوع</p></a
+            >
+          </div>
+          
+          <div class="mainOffer-icon">
+            <a href="#">
+              <img src="assets/svg/نجمة.svg" width="24" height="24" />
+            </a>
+            <div onclick="checkCart()" style="cursor: pointer;" >
+              <img src="assets/svg/عربة.svg" width="30" height="30" />
+            </div>
+            <a href="#">
+              <img src="assets/svg/سهم كارد.svg" width="24" height="24" />
+            </a>
+          </div>
+        </div>
+
+        <!--end card ----->
+        <!--------------------------start card ---------------->
+        <div class="mainOffer-card">
+          <div>
+            <a href="details.html"
+              ><img class="mainOffer-img" src="assets/books/3.jpg"
+            /></a>
+          </div>
+          <div class="mainOffer-title">
+            <div>
+              <img src="assets/svg/كتاب كارد.svg" width="24" height="24" />
+
+            </div>
+            <h2>كتابي الكتروني</h2>
+          </div>
+          <div class="mainOffer-deyail">
+            <p style="text-align: center; margin-bottom: 10px">
+              كتاب مغامرات مارتن (كتاب الكتروني)
+            </p>
+          </div>
+          <div class="mainOffer-price">
+            <h1 style="color: red">
+              49<span style="font-size: 0.5rem">ر.س</span>
+            </h1>
+            <p style="font-size: 0.7rem; color: rgba(128, 128, 128, 0.664)">
+              شامل الضريبة
+            </p>
+          </div>
+          <div class="mainOffer-another">
+            <p>صيغ اخرى :</p>
+            <a href="#" style="text-decoration: none"
+              ><p style="color: blue; font-weight: bold">كتاب مطبوع</p></a
+            >
+          </div>
+          
+          <div class="mainOffer-icon">
+            <a href="#">
+              <img src="assets/svg/نجمة.svg" width="24" height="24" />
+            </a>
+            <div onclick="checkCart()" style="cursor: pointer;" >
+              <img src="assets/svg/عربة.svg" width="30" height="30" />
+            </div>
+            <a href="#">
+              <img src="assets/svg/سهم كارد.svg" width="24" height="24" />
+            </a>
+          </div>
+        </div>
+
+        <!--end card ----->
+
+
+        <div style="display: flex; align-items: center; width: 20px; position: absolute; top: 150px; left:2px;">
+          <img src="assets/svg/يسار.svg" style="cursor: pointer; height: 30px; width: 30px;" />
+        </div>
 
       </div>
 
@@ -920,12 +1747,20 @@
 <li class="animals">
   <!-----------------------   الطبخ  ---------------------->
 
-  <div id="1" class="mainOffer-container">
+  <div id="5" class="mainOffer-container">
     <div class="latst-offer">
       <h1>الطبخ</h1>
+      <a style="color: #0089B6; text-decoration: none;" href="#"><h3>عرض الكل</h3></a>
+
     </div>
 
     <div class="lastoffer-cards">
+
+      <div style="display: flex; align-items: center; width: 20px; position: absolute; top: 150px; right: 10px;">
+
+        <img src="assets/svg/يمين.svg" style="cursor: pointer; height: 30px; width: 30px;" />
+      </div>
+
       <!--------------------------start card ---------------->
       <div class="mainOffer-card">
         <div>
@@ -959,11 +1794,7 @@
             ><p style="color: blue; font-weight: bold">كتاب مطبوع</p></a
           >
         </div>
-        <div
-          id="demo3"
-          style="color: rgb(5, 224, 5)"
-          class="mainOffer-timer"
-        ></div>
+        
         <div class="mainOffer-icon">
           <a href="#">
             <img src="assets/svg/نجمة.svg" width="24" height="24" />
@@ -975,11 +1806,208 @@
             <img src="assets/svg/سهم كارد.svg" width="24" height="24" />
           </a>
         </div>
-      </div>     
+      </div>
+
+      <!--end card ----->
+      <!--------------------------start card ---------------->
+      <div class="mainOffer-card">
+        <div>
+          <a href="details.html"
+            ><img class="mainOffer-img" src="assets/books/3.jpg"
+          /></a>
+        </div>
+        <div class="mainOffer-title">
+          <div>
+            <img src="assets/svg/كتاب كارد.svg" width="24" height="24" />
+
+          </div>
+          <h2>كتابي الكتروني</h2>
+        </div>
+        <div class="mainOffer-deyail">
+          <p style="text-align: center; margin-bottom: 10px">
+            كتاب مغامرات مارتن (كتاب الكتروني)
+          </p>
+        </div>
+        <div class="mainOffer-price">
+          <h1 style="color: red">
+            49<span style="font-size: 0.5rem">ر.س</span>
+          </h1>
+          <p style="font-size: 0.7rem; color: rgba(128, 128, 128, 0.664)">
+            شامل الضريبة
+          </p>
+        </div>
+        <div class="mainOffer-another">
+          <p>صيغ اخرى :</p>
+          <a href="#" style="text-decoration: none"
+            ><p style="color: blue; font-weight: bold">كتاب مطبوع</p></a
+          >
+        </div>
+        
+        <div class="mainOffer-icon">
+          <a href="#">
+            <img src="assets/svg/نجمة.svg" width="24" height="24" />
+          </a>
+          <div onclick="checkCart()" style="cursor: pointer;" >
+            <img src="assets/svg/عربة.svg" width="30" height="30" />
+          </div>
+          <a href="#">
+            <img src="assets/svg/سهم كارد.svg" width="24" height="24" />
+          </a>
+        </div>
+      </div>
+
+      <!--end card ----->
+      <!--------------------------start card ---------------->
+      <div class="mainOffer-card">
+        <div>
+          <a href="details.html"
+            ><img class="mainOffer-img" src="assets/books/3.jpg"
+          /></a>
+        </div>
+        <div class="mainOffer-title">
+          <div>
+            <img src="assets/svg/كتاب كارد.svg" width="24" height="24" />
+
+          </div>
+          <h2>كتابي الكتروني</h2>
+        </div>
+        <div class="mainOffer-deyail">
+          <p style="text-align: center; margin-bottom: 10px">
+            كتاب مغامرات مارتن (كتاب الكتروني)
+          </p>
+        </div>
+        <div class="mainOffer-price">
+          <h1 style="color: red">
+            49<span style="font-size: 0.5rem">ر.س</span>
+          </h1>
+          <p style="font-size: 0.7rem; color: rgba(128, 128, 128, 0.664)">
+            شامل الضريبة
+          </p>
+        </div>
+        <div class="mainOffer-another">
+          <p>صيغ اخرى :</p>
+          <a href="#" style="text-decoration: none"
+            ><p style="color: blue; font-weight: bold">كتاب مطبوع</p></a
+          >
+        </div>
+        
+        <div class="mainOffer-icon">
+          <a href="#">
+            <img src="assets/svg/نجمة.svg" width="24" height="24" />
+          </a>
+          <div onclick="checkCart()" style="cursor: pointer;" >
+            <img src="assets/svg/عربة.svg" width="30" height="30" />
+          </div>
+          <a href="#">
+            <img src="assets/svg/سهم كارد.svg" width="24" height="24" />
+          </a>
+        </div>
+      </div>
+
+      <!--end card ----->
+      <!--------------------------start card ---------------->
+      <div class="mainOffer-card">
+        <div>
+          <a href="details.html"
+            ><img class="mainOffer-img" src="assets/books/3.jpg"
+          /></a>
+        </div>
+        <div class="mainOffer-title">
+          <div>
+            <img src="assets/svg/كتاب كارد.svg" width="24" height="24" />
+
+          </div>
+          <h2>كتابي الكتروني</h2>
+        </div>
+        <div class="mainOffer-deyail">
+          <p style="text-align: center; margin-bottom: 10px">
+            كتاب مغامرات مارتن (كتاب الكتروني)
+          </p>
+        </div>
+        <div class="mainOffer-price">
+          <h1 style="color: red">
+            49<span style="font-size: 0.5rem">ر.س</span>
+          </h1>
+          <p style="font-size: 0.7rem; color: rgba(128, 128, 128, 0.664)">
+            شامل الضريبة
+          </p>
+        </div>
+        <div class="mainOffer-another">
+          <p>صيغ اخرى :</p>
+          <a href="#" style="text-decoration: none"
+            ><p style="color: blue; font-weight: bold">كتاب مطبوع</p></a
+          >
+        </div>
+        
+        <div class="mainOffer-icon">
+          <a href="#">
+            <img src="assets/svg/نجمة.svg" width="24" height="24" />
+          </a>
+          <div onclick="checkCart()" style="cursor: pointer;" >
+            <img src="assets/svg/عربة.svg" width="30" height="30" />
+          </div>
+          <a href="#">
+            <img src="assets/svg/سهم كارد.svg" width="24" height="24" />
+          </a>
+        </div>
+      </div>
+
+      <!--end card ----->
+      <!--------------------------start card ---------------->
+      <div class="mainOffer-card">
+        <div>
+          <a href="details.html"
+            ><img class="mainOffer-img" src="assets/books/3.jpg"
+          /></a>
+        </div>
+        <div class="mainOffer-title">
+          <div>
+            <img src="assets/svg/كتاب كارد.svg" width="24" height="24" />
+
+          </div>
+          <h2>كتابي الكتروني</h2>
+        </div>
+        <div class="mainOffer-deyail">
+          <p style="text-align: center; margin-bottom: 10px">
+            كتاب مغامرات مارتن (كتاب الكتروني)
+          </p>
+        </div>
+        <div class="mainOffer-price">
+          <h1 style="color: red">
+            49<span style="font-size: 0.5rem">ر.س</span>
+          </h1>
+          <p style="font-size: 0.7rem; color: rgba(128, 128, 128, 0.664)">
+            شامل الضريبة
+          </p>
+        </div>
+        <div class="mainOffer-another">
+          <p>صيغ اخرى :</p>
+          <a href="#" style="text-decoration: none"
+            ><p style="color: blue; font-weight: bold">كتاب مطبوع</p></a
+          >
+        </div>
+        
+        <div class="mainOffer-icon">
+          <a href="#">
+            <img src="assets/svg/نجمة.svg" width="24" height="24" />
+          </a>
+          <div onclick="checkCart()" style="cursor: pointer;" >
+            <img src="assets/svg/عربة.svg" width="30" height="30" />
+          </div>
+          <a href="#">
+            <img src="assets/svg/سهم كارد.svg" width="24" height="24" />
+          </a>
+        </div>
+      </div>
+
       <!--end card ----->
 
-    </div>
 
+      <div style="display: flex; align-items: center; width: 20px; position: absolute; top: 150px; left:2px;">
+        <img src="assets/svg/يسار.svg" style="cursor: pointer; height: 30px; width: 30px;" />
+      </div>
+
+    </div>
     <!---->
   </div>
 </li>
@@ -987,12 +2015,20 @@
 <li class="animals">
   <!-----------------------  افضل الروايات الرومانسية  ---------------------->
 
-  <div id="1" class="mainOffer-container">
+  <div id="6" class="mainOffer-container">
     <div class="latst-offer">
       <h1>افضل الروايات الرومانسية</h1>
+      <a style="color: #0089B6; text-decoration: none;" href="#"><h3>عرض الكل</h3></a>
+
     </div>
 
     <div class="lastoffer-cards">
+
+      <div style="display: flex; align-items: center; width: 20px; position: absolute; top: 150px; right: 10px;">
+
+        <img src="assets/svg/يمين.svg" style="cursor: pointer; height: 30px; width: 30px;" />
+      </div>
+
       <!--------------------------start card ---------------->
       <div class="mainOffer-card">
         <div>
@@ -1026,11 +2062,7 @@
             ><p style="color: blue; font-weight: bold">كتاب مطبوع</p></a
           >
         </div>
-        <div
-          id="demo3"
-          style="color: rgb(5, 224, 5)"
-          class="mainOffer-timer"
-        ></div>
+        
         <div class="mainOffer-icon">
           <a href="#">
             <img src="assets/svg/نجمة.svg" width="24" height="24" />
@@ -1042,8 +2074,206 @@
             <img src="assets/svg/سهم كارد.svg" width="24" height="24" />
           </a>
         </div>
-      </div>     
+      </div>
+
       <!--end card ----->
+      <!--------------------------start card ---------------->
+      <div class="mainOffer-card">
+        <div>
+          <a href="details.html"
+            ><img class="mainOffer-img" src="assets/books/3.jpg"
+          /></a>
+        </div>
+        <div class="mainOffer-title">
+          <div>
+            <img src="assets/svg/كتاب كارد.svg" width="24" height="24" />
+
+          </div>
+          <h2>كتابي الكتروني</h2>
+        </div>
+        <div class="mainOffer-deyail">
+          <p style="text-align: center; margin-bottom: 10px">
+            كتاب مغامرات مارتن (كتاب الكتروني)
+          </p>
+        </div>
+        <div class="mainOffer-price">
+          <h1 style="color: red">
+            49<span style="font-size: 0.5rem">ر.س</span>
+          </h1>
+          <p style="font-size: 0.7rem; color: rgba(128, 128, 128, 0.664)">
+            شامل الضريبة
+          </p>
+        </div>
+        <div class="mainOffer-another">
+          <p>صيغ اخرى :</p>
+          <a href="#" style="text-decoration: none"
+            ><p style="color: blue; font-weight: bold">كتاب مطبوع</p></a
+          >
+        </div>
+        
+        <div class="mainOffer-icon">
+          <a href="#">
+            <img src="assets/svg/نجمة.svg" width="24" height="24" />
+          </a>
+          <div onclick="checkCart()" style="cursor: pointer;" >
+            <img src="assets/svg/عربة.svg" width="30" height="30" />
+          </div>
+          <a href="#">
+            <img src="assets/svg/سهم كارد.svg" width="24" height="24" />
+          </a>
+        </div>
+      </div>
+
+      <!--end card ----->
+      <!--------------------------start card ---------------->
+      <div class="mainOffer-card">
+        <div>
+          <a href="details.html"
+            ><img class="mainOffer-img" src="assets/books/3.jpg"
+          /></a>
+        </div>
+        <div class="mainOffer-title">
+          <div>
+            <img src="assets/svg/كتاب كارد.svg" width="24" height="24" />
+
+          </div>
+          <h2>كتابي الكتروني</h2>
+        </div>
+        <div class="mainOffer-deyail">
+          <p style="text-align: center; margin-bottom: 10px">
+            كتاب مغامرات مارتن (كتاب الكتروني)
+          </p>
+        </div>
+        <div class="mainOffer-price">
+          <h1 style="color: red">
+            49<span style="font-size: 0.5rem">ر.س</span>
+          </h1>
+          <p style="font-size: 0.7rem; color: rgba(128, 128, 128, 0.664)">
+            شامل الضريبة
+          </p>
+        </div>
+        <div class="mainOffer-another">
+          <p>صيغ اخرى :</p>
+          <a href="#" style="text-decoration: none"
+            ><p style="color: blue; font-weight: bold">كتاب مطبوع</p></a
+          >
+        </div>
+        
+        <div class="mainOffer-icon">
+          <a href="#">
+            <img src="assets/svg/نجمة.svg" width="24" height="24" />
+          </a>
+          <div onclick="checkCart()" style="cursor: pointer;" >
+            <img src="assets/svg/عربة.svg" width="30" height="30" />
+          </div>
+          <a href="#">
+            <img src="assets/svg/سهم كارد.svg" width="24" height="24" />
+          </a>
+        </div>
+      </div>
+
+      <!--end card ----->
+      <!--------------------------start card ---------------->
+      <div class="mainOffer-card">
+        <div>
+          <a href="details.html"
+            ><img class="mainOffer-img" src="assets/books/3.jpg"
+          /></a>
+        </div>
+        <div class="mainOffer-title">
+          <div>
+            <img src="assets/svg/كتاب كارد.svg" width="24" height="24" />
+
+          </div>
+          <h2>كتابي الكتروني</h2>
+        </div>
+        <div class="mainOffer-deyail">
+          <p style="text-align: center; margin-bottom: 10px">
+            كتاب مغامرات مارتن (كتاب الكتروني)
+          </p>
+        </div>
+        <div class="mainOffer-price">
+          <h1 style="color: red">
+            49<span style="font-size: 0.5rem">ر.س</span>
+          </h1>
+          <p style="font-size: 0.7rem; color: rgba(128, 128, 128, 0.664)">
+            شامل الضريبة
+          </p>
+        </div>
+        <div class="mainOffer-another">
+          <p>صيغ اخرى :</p>
+          <a href="#" style="text-decoration: none"
+            ><p style="color: blue; font-weight: bold">كتاب مطبوع</p></a
+          >
+        </div>
+        
+        <div class="mainOffer-icon">
+          <a href="#">
+            <img src="assets/svg/نجمة.svg" width="24" height="24" />
+          </a>
+          <div onclick="checkCart()" style="cursor: pointer;" >
+            <img src="assets/svg/عربة.svg" width="30" height="30" />
+          </div>
+          <a href="#">
+            <img src="assets/svg/سهم كارد.svg" width="24" height="24" />
+          </a>
+        </div>
+      </div>
+
+      <!--end card ----->
+      <!--------------------------start card ---------------->
+      <div class="mainOffer-card">
+        <div>
+          <a href="details.html"
+            ><img class="mainOffer-img" src="assets/books/3.jpg"
+          /></a>
+        </div>
+        <div class="mainOffer-title">
+          <div>
+            <img src="assets/svg/كتاب كارد.svg" width="24" height="24" />
+
+          </div>
+          <h2>كتابي الكتروني</h2>
+        </div>
+        <div class="mainOffer-deyail">
+          <p style="text-align: center; margin-bottom: 10px">
+            كتاب مغامرات مارتن (كتاب الكتروني)
+          </p>
+        </div>
+        <div class="mainOffer-price">
+          <h1 style="color: red">
+            49<span style="font-size: 0.5rem">ر.س</span>
+          </h1>
+          <p style="font-size: 0.7rem; color: rgba(128, 128, 128, 0.664)">
+            شامل الضريبة
+          </p>
+        </div>
+        <div class="mainOffer-another">
+          <p>صيغ اخرى :</p>
+          <a href="#" style="text-decoration: none"
+            ><p style="color: blue; font-weight: bold">كتاب مطبوع</p></a
+          >
+        </div>
+        
+        <div class="mainOffer-icon">
+          <a href="#">
+            <img src="assets/svg/نجمة.svg" width="24" height="24" />
+          </a>
+          <div onclick="checkCart()" style="cursor: pointer;" >
+            <img src="assets/svg/عربة.svg" width="30" height="30" />
+          </div>
+          <a href="#">
+            <img src="assets/svg/سهم كارد.svg" width="24" height="24" />
+          </a>
+        </div>
+      </div>
+
+      <!--end card ----->
+
+
+      <div style="display: flex; align-items: center; width: 20px; position: absolute; top: 150px; left:2px;">
+        <img src="assets/svg/يسار.svg" style="cursor: pointer; height: 30px; width: 30px;" />
+      </div>
 
     </div>
 

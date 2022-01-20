@@ -10,6 +10,11 @@
     justify-content: space-evenly;
     position: relative;
 }
+.latst-offer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .mainOffer-timer{
     border: 1px solid rgb(5, 224, 5);
     border-radius: 20px;
