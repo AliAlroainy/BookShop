@@ -284,6 +284,36 @@ button:hover {
   }
 }
 
+/* ----------------- top cards div styling ---------*/
+.divs-dady {
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+  width: 100%;
+  direction: rtl;
+}
+
+.card-dv {
+  text-decoration: none;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center;
+   align-items: center;
+   width: 100%;
+   box-shadow: 0px 1px 2px 1px #5a535377;
+   position: relative;
+   padding: 10px;
+   padding-bottom: 30px;
+   border-radius: 10px;
+}
+
+/* ----------------- top poc dady styling ---------*/
+
+
+
 
 /* --------- footer ---------------------- */
 footer a {
@@ -337,6 +367,10 @@ footer .downfooter {
 .d-right {
   display: flex;
   justify-content: space-around;
+  direction: rtl;
+  align-items: center;
+  gap: 10px;
+  
 }
 
 .footer-form {
