@@ -60,7 +60,7 @@
 .buy-cart{
  margin: 10px;
  padding: 20px;
- width: 50%;
+ width: 300px;
  height: 50vh;
  box-shadow: 0px 0px 5px 1px rgba(212, 209, 209, 0.568);
  border: none;
@@ -71,10 +71,11 @@
 
 
 
-@media (max-width: 900px) { 
+@media (max-width: 800px) { 
 
     .c-main  {
         display: flex;
         flex-direction: column;
     }
+    
 }
