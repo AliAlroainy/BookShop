@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/mainOffer.css" />
+    <link rel="stylesheet" href="css/slider.css" />
+
 
     <title>BookShop</title>
   </head>
-  <body>
+  <body class="body">
     <!-------------------- header --------------------------------------------------------->
     <header>
       <!--top header-->
@@ -84,7 +86,7 @@
           </a>
 
           <a href="#" class="item">
-            <div>English</div>
+            <div onclick="changeLanguage();" >English</div>
             <div>
               <img src="assets/svg/english.svg" width="20" height="20" alt="icon" />
             </div>
@@ -92,15 +94,15 @@
         </div>
       </nav>
       <!--second header-->
-      <div class="second-header">
-        <div style="display: flex; width: 80vw; position: relative;">
+      <div id="second-header" class="second-header">
+        <div id="second-header" style="display: flex; width: 80vw; position: relative;">
 
           <a href="cart.html" class="cart">
             <div id="counter-cart" style="position: absolute;top: -5px; border-radius: 50%; left: 1px; width: 20px; height: 20px; background-color: red; color: #fff; display: flex; align-items: center; justify-content: center; visibility: hidden;">0</div>
             <img src="assets/svg/searc-cart.svg" width="24" height="24" alt="icon"/>
           </a>
 
-          <div class="search">
+          <div id="second-header" class="search">
             <form>
               <input  onkeyup="search_cat()" 
               type="search" id="search" placeholder="البحث" />              <button type="submit">
@@ -276,19 +278,40 @@
 
     <!------------------------------end header  ---------------------------------------------->
 
-    <!------------------------------slid --------------------->
+      <!------------------------ slider -------------------------------------------------->
 
-    <div class="main">
-      <div class="slider">
-        <div class="ss">
-          <img class="slider-item" src="assets/1.jpg" />
-          <img class="slider-item" src="assets/2.jpg" />
-          <img class="slider-item" src="assets/3.jpg" />
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="assets/3.jpg" style="width: 100%; height: 300px;" />
+          <div class="text">Caption Text</div>
         </div>
+  
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="assets/2.jpg" style="width: 100%; height: 300px;" />
+          <div class="text">Caption Two</div>
+        </div>
+  
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="assets/1.jpg" style="width: 100%; height: 300px;" />
+          <div class="text">Caption Three</div>
+        </div>
+  
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
       </div>
-
-      <div class="show"></div>
-    </div>
+      <br />
+  
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+  
+  
+      <!-------------------- end slider --------------------->
 
     <!--------------------      brows catgure      -------------------->
 
@@ -352,17 +375,17 @@
       <div style="display: flex; flex-direction: row; width: 100%; gap: 20px;">
 
       <div style="width: 100%; height: 120px;">
-        <img src="assets/1.jpg" style="height: 100%; width: 100%;" />
+        <img src="assets/11.jpg" style="height: 100%; width: 100%;" />
       </div>
       
       <div style="width: 100%; height: 120px;">
-        <img src="assets/1.jpg" style="height: 100%; width: 100%; " />
+        <img src="assets/22.jpg" style="height: 100%; width: 100%; " />
       </div>
       <div id="crl" style="width: 100%; height: 120px;">
-        <img src="assets/1.jpg" style="height: 100%; width: 100%;" />
+        <img src="assets/33.jfif" style="height: 100%; width: 100%;" />
       </div>
       <div id="crl" style="width: 100%; height: 120px;">
-        <img src="assets/1.jpg" style="height: 100%; width: 100%;" />
+        <img src="assets/3.jpg" style="height: 100%; width: 100%;" />
       </div>
 
     </div>
@@ -2431,5 +2454,7 @@
     <script src="js/search.js"></script>
     <script src="js/script.js"></script>
     <script src="js/mainOffer.js"></script>
+    <script src="js/slider.js"></script>
+
   </body>
 </html>

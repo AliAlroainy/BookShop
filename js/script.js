@@ -37,3 +37,38 @@ function checkCart(){
   x++;
   c.innerText = x;
 }
+
+// ------------------------------------
+function changeLanguage(){
+  //document.getElementsByClassName("body")[0];
+  var bod =  document.getElementsByTagName("body")[0];
+ if (bod.classList.contains("body")){
+   bod.classList.replace("body","body1");
+   document.getElementsByClassName('nv')[0].style.direction = "ltr";
+  // document.getElementById('search').style.direction = "ltr";
+    document.getElementById('second-header').style.flexDirection = "row-reverse";
+    
+  // document.getElementsByClassName('nre')[0].style.direction = "ltr";
+  document.getElementsByTagName('ol')[0].style.flexDirection = "row-reverse";
+  // document.querySelectorAll('mainOffer-container').style.flexDirection = "row-reverse";
+  //  document.querySelectorAll('latst-offer').style.direction = style.flexDirection = "row-reverse";
+
+ }else if (bod.classList.contains("body1")){
+    bod.classList.replace("body1","body");
+    document.getElementsByClassName('nv')[0].style.direction = "rtl";
+    document.getElementsByClassName('search')[0].style.direction = "rtl";
+    document.getElementById('second-header').style.flexDirection = "row";
+
+
+  //  document.getElementsByClassName('nre')[0].style.direction = "rtl";
+   // document.getElementsByTagName('ol')[0].style.direction = "rtl";
+    //document.querySelectorAll('mainOffer-container').style.direction = "rtl";
+   // document.querySelectorAll('latst-offer').style.direction = "rtl";
+
+
+
+  } 
+  
+ 
+
+}

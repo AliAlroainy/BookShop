@@ -8,8 +8,13 @@
 
 /* ---- start header style ------------------- */
 
-body {
+.body {
  
+  font-family: "Tajawal", sans-serif;
+}
+
+.body1 {
+  direction: ltr;
   font-family: "Tajawal", sans-serif;
 }
 
