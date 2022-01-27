@@ -1,3 +1,9 @@
+body {
+ 
+    font-family: "Tajawal", sans-serif;
+  }
+  
+
 .mainOffer-container{
     display: flex;
     flex-direction: column;

@@ -390,6 +390,7 @@ footer .downfooter {
   margin: 5px;
   border-radius: 5px;
   padding: 2px;
+  position: relative;
 }
 
 .footer-form input {
@@ -405,7 +406,7 @@ footer .downfooter {
   height: 50px;
   width: 40%;
   border: none;
-  font-size: 20px;
+  font-size: 18px;
   margin: 5px;
   border-radius: 5px;
   background-color: rgb(255, 255, 255);
@@ -531,6 +532,7 @@ footer .topfooter .item-down {
   }
   .second-header {
     margin-top: 50px;
+    width: 53vw;
   }
   .logg {
     position: fixed;
